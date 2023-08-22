@@ -69,13 +69,11 @@ body {
     padding: 0;
 }
 
-.bg-section1 {
+.hero {
     background-color: var(--navyblue);
-    margin: 0%;
-    padding: 0%;
 }
 
-.h1-title {
+.hero-title {
     color: var(--whitecolor);
     text-align: center;
     font-size: 56px;
@@ -108,14 +106,14 @@ body {
     background-color: var(--whitecolor);
 }
 
-.titlelist {
+.criteria-title {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
 }
 
-.desclist {
+.criteria-description {
     color: var(--slatecolor);
 }
 
@@ -123,7 +121,7 @@ body {
     background-color: var(--whitecolor);
 }
 
-.sectiontitle {
+.section-title {
     color: var(--navyblue);
     text-align: center;
     font-size: 36px;
@@ -137,14 +135,14 @@ body {
     background-color: var(--cloudcolor);
 }
 
-.teamname {
+.team-name {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 0.4px;
 }
 
-.teamposition {
+.team-position {
     color: var(--slatecolor);
 }
 
@@ -168,8 +166,8 @@ body {
 .btn-filter:hover,
 .btn-filter:focus {
     color: var(--cloudcolor);
-    background-color: var(--oceancolor #05092f);
-    border-color: var(--oceancolor #05092f);
+    background-color: var(--oceancolor, #05092f);
+    border-color: var(--oceancolor, #05092f);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
@@ -182,14 +180,14 @@ body {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-services {
+.portfolio-title {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
 }
 
-.portfolio-desc {
+.portfolio-description {
     color: var(--slatecolor);
 }
 
