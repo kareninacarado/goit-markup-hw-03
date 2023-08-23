@@ -60,6 +60,10 @@ ul {
     color: var(--navyblue);
 }
 
+.studio-logo2 {
+    color: var(--cloudcolor);
+}
+
 .studio-footer {
     color: var(--cloudcolor);
 }
@@ -89,14 +93,14 @@ ul {
     justify-content: space-between;
 }
 
-.header-address-link {
+.header-contacts-link {
     color: var(--slatecolor);
     padding: 24px 0;
     display: block;
 }
 
-.header-address-link:hover,
-.header-address-link:focus {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
     color: var(--oceancolor);
 }
 
