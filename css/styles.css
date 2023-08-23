@@ -134,7 +134,7 @@ ul {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
-    margin-bottom: 40px;
+    margin-bottom: 48px;
 }
 
 .hero-section {
@@ -227,7 +227,7 @@ ul {
 .filter-item {
     padding: 12px 24px;
     cursor: pointer;
-    background: var(--cloudcolor),
+    background: var(--cloudcolor);
     color: var(--iriscolor);
     font-family: inherit;
     font-size: 16px;
